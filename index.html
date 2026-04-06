@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SjkReg</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">SjkReg</p>
+          <h1>Hundregister med släktvy</h1>
+          <p class="hero-copy">
+            Sök på registreringsnummer och få fram hundens rapporter, syskon,
+            avkommor och föräldralinje i en webbversion av Excel-funktionen.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="stat-label">Datakälla</div>
+          <div class="stat-value" id="rowCount">Laddar...</div>
+          <div class="stat-help">Poster från bladet Hundar</div>
+        </div>
+      </header>
+
+      <main class="dashboard">
+        <section class="search-panel">
+          <form id="searchForm" class="search-box">
+            <label class="field-label" for="regnrInput">Registreringsnummer</label>
+            <div class="search-row">
+              <input
+                id="regnrInput"
+                name="regnr"
+                type="text"
+                placeholder="t.ex. S16345/74"
+                autocomplete="off"
+              />
+              <button type="submit" class="primary-button">Sök hund</button>
+              <button type="button" id="clearButton" class="ghost-button">Radera</button>
+            </div>
+          </form>
+          <p id="statusMessage" class="status-message">
+            Laddar registerdata...
+          </p>
+        </section>
+
+        <section id="summary" class="summary-grid" hidden></section>
+
+        <section id="results" class="results-stack" hidden></section>
+      </main>
+    </div>
+
+    <template id="summaryCardTemplate">
+      <article class="summary-card">
+        <div class="summary-label"></div>
+        <div class="summary-value"></div>
+      </article>
+    </template>
+
+    <template id="sectionTemplate">
+      <section class="relation-section">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker"></p>
+            <h2 class="section-title"></h2>
+          </div>
+          <span class="section-count"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Sjukdom</th>
+                <th>Område</th>
+                <th>Relation</th>
+                <th>Hundens namn</th>
+                <th>Faders namn</th>
+                <th>Mor namn</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </template>
+
+    <script src="./app.js"></script>
+  </body>
+  </html>
