@@ -10,7 +10,6 @@ const elements = {
   status: document.querySelector("#statusMessage"),
   results: document.querySelector("#results"),
   summary: document.querySelector("#summary"),
-  rowCount: document.querySelector("#rowCount"),
   sectionTemplate: document.querySelector("#sectionTemplate"),
   summaryTemplate: document.querySelector("#summaryCardTemplate"),
 };
@@ -239,7 +238,6 @@ async function loadData() {
     const payload = await response.json();
     state.rows = payload.rows || [];
     state.loaded = true;
-    elements.rowCount.textContent = payload.count?.toLocaleString("sv-SE") || "0";
     setStatus("Registerdata laddad. Sök på ett registreringsnummer.");
   } catch (error) {
     console.error(error);
@@ -247,7 +245,6 @@ async function loadData() {
       "Kunde inte läsa datafilen. Kör gärna ett lokalt webbserverkommando i mappen för att ladda JSON korrekt.",
       true,
     );
-    elements.rowCount.textContent = "Fel";
   }
 }
 
