@@ -1,7 +1,7 @@
 {
   "source": "H:\\SjkReg-FINAL-AoH-Nytt (test).xlsm",
-  "generatedAt": "2026-04-06T12:16:26",
-  "count": 9163,
+  "generatedAt": "2026-04-06T18:05:34",
+  "count": 9167,
   "rows": [
     {
       "sjukdom": "(Ev. rapporterat även tidigare) avlivad 17 mån gammal pga. ledarskapsproblem (U)",
@@ -23502,7 +23502,7 @@
     {
       "sjukdom": "Fraktur på en kota i korset som ger smärtor i handlovar och omusklad vänstersida sedan 1 års ålder",
       "omrade": "Skelett",
-      "regnr": "S67308/2008",
+      "regnr": "",
       "hundens_namn": "Lintrollets Bingo",
       "fodd": "2008-10-21",
       "kullnr": "39742S57400/2002",
@@ -109958,6 +109958,54 @@
       "faders_namn": "Hässlehoffs Lupin-Samoason",
       "mor_regnr": "S44213/2007",
       "mor_namn": "Thilwhil's Fidji"
+    },
+    {
+      "sjukdom": "Avlivad - Tumör vid ögat, satt illa till för op. Valde att låta honom somna in.",
+      "omrade": "Avlivad/Död",
+      "regnr": "SE38220/2016",
+      "hundens_namn": "Swedehof's Prime",
+      "fodd": "2016-06-03",
+      "kullnr": "42524SE33615/2010",
+      "fader_regnr": "SE49920/2011",
+      "faders_namn": "Swedehof's Inter",
+      "mor_regnr": "SE33615/2010",
+      "mor_namn": "Swedehof's Grand Espace"
+    },
+    {
+      "sjukdom": "OCD båda knäna, opererad",
+      "omrade": "OCD",
+      "regnr": "SE25414/2025",
+      "hundens_namn": "Swedehof's Calleigh Duquense",
+      "fodd": "2025-05-03",
+      "kullnr": "45780SE45039/2020",
+      "fader_regnr": "SE25205/2019",
+      "faders_namn": "Thilwhil's Miro",
+      "mor_regnr": "SE45039/2020",
+      "mor_namn": "Swedehof's Vega"
+    },
+    {
+      "sjukdom": "Förträngning i ländryggen. Utredning pågår",
+      "omrade": "Rygg",
+      "regnr": "SE17839/2017",
+      "hundens_namn": "Swedehof's Qashqai",
+      "fodd": "2017-02-14",
+      "kullnr": "42780SE13938/2011",
+      "fader_regnr": "CMKUHW6241/10",
+      "faders_namn": "Alfred Ze Svetlovskych Luk",
+      "mor_regnr": "SE13938/2011",
+      "mor_namn": "Swedehof's Healey"
+    },
+    {
+      "sjukdom": "Lindrig allergi mot 2 kvalster, gräspollen & getingar",
+      "omrade": "Allergi",
+      "regnr": "SE25729/2023",
+      "hundens_namn": "Swedehof's Ace Ventura",
+      "fodd": "2023-04-18",
+      "kullnr": "45034SE19261/2016",
+      "fader_regnr": "SE51752/2018",
+      "faders_namn": "Swedehof's Stingray",
+      "mor_regnr": "SE19261/2016",
+      "mor_namn": "Swedehof's Omega"
     }
   ]
 }
